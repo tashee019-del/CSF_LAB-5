@@ -1,0 +1,14 @@
+queue = []
+
+# Enqueue
+queue.append(100)
+queue.append(200)
+queue.append(300)
+print("Queue after enqueue:", queue)
+
+# Front
+print("Front element:", queue[0])
+
+# Dequeue
+print("Dequeued element:", queue.pop(0))
+print("Queue after dequeue:", queue)

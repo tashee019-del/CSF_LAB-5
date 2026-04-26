@@ -1,0 +1,6 @@
+customers = ['Ram', 'Phurba', 'Petoo']
+print("Customers waiting:", customers)
+
+served = customers.pop(0)
+print("Serving customer:", served)
+print("Remaining queue:", customers)
